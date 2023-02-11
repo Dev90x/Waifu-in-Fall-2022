@@ -1,0 +1,53 @@
+body
+{ background-image: url(../Multimedia/ZZ/bg4.jpg); }
+
+.tema
+{ font-size: 50px; font-weight: bold; padding-left: 40px; background-color: #c7ecee; border-radius: 5px; }
+
+.tema a
+{ color: #686de0; text-decoration: none; }
+
+nav
+{ background-color: #686de0; display: flex; justify-content: space-between; align-items: center; padding:0 40px 0 0; height: 50px; border-radius: 5px; margin-bottom: 15px;}
+
+.menu
+{ display: flex; }
+
+.menu li a
+{ padding: 20px 30px; font-size: 21px; }
+
+nav .menu li a
+{ color: #000; text-decoration: none; font-weight: 680; }
+
+nav .menu li
+{ list-style: none; padding: 10px 0; }
+
+nav .menu li:hover
+{ background-color: #30336b; height: 25px; padding-bottom: 9px;}
+
+ul li.active a
+{ background-color: #30336b; padding: 10px 30px; }
+
+.container
+{ width: 1000px; height: 730px; background-color: #7c7fe4; font-family: Arial, Helvetica, sans-serif; padding-left: 20px; padding-right: 20px; padding-top: 8px; border-radius: 5px; color: #fff; margin: auto; }
+
+.container div
+{ font-size: 30px; font-weight: 550; padding-left: 70px; padding-top: 13px; padding-bottom: 8px; color: #c7ecee; background-color: #686de0; border-radius: 5px; }
+
+.grid
+{ display: grid; grid-template-columns: repeat(4,1fr); margin: 10px 20px 10px 20px; align-items: center; grid-gap: 30px; }
+
+img
+{ object-fit: cover; padding: 8px 8px 8px 8px; }
+
+.grid article
+{ box-shadow: 7px 5px 5px 0px black; border-radius: 10px; text-align: center; background: #c7ecee; height: 190px; width: 160px; margin-left: 20px; }
+
+.grid article img
+{ border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; }
+
+.grid article a
+{ text-decoration: none; font-size: 20px; color: #000; }
+
+.grid article a:hover
+{ background-color: #8dc6ff; border-radius: 6px; padding: 5px 3px; }

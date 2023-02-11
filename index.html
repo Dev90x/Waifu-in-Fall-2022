@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <!-- 
+            Nama: Diven perwira sentosa
+            NIM: 10122317
+            Kelas: IF-9
+         -->
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="./css/Beranda.css">
+    </head>
+
+    <body>
+        <div class="tema">
+            <a href="./index.html">Waifu in Fall 2022</a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./1 Menu Utama/WaifuImage.html">Waifu Gallery</a></li>
+                <li><a href="./1 Menu Utama/WaifuFandomList.html">List Waifu</a></li>
+            </ul>
+            <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+            <script type="text/javascript">
+                $(document).on('click', 'ul li', function(){
+                    $('this').siblings().addClass('active').removeClass('active')
+                })
+            </script>
+        </nav>
+
+
+        <div class="container">
+            <div class="top">Top 4 Waifu Fall 2022</div>
+            <div class="cardBox">
+                <div class="left">
+                    <main class="grid">
+                        <article class="shadow0">
+                            <img src="./Multimedia/Gotou Hitori/Hitori.jpg">
+                            <div>
+                                <a href="./3 Waifu Fandom/1--Bocchi.html">Hitori Gotou</a>
+                            </div>
+                        </article>
+                    </main>    
+                </div>
+                <div class="right">
+                    <main class="grid">
+                        <article class="shadow">
+                            <img src="./Multimedia/Ijichi Nijika/201.jpg">
+                            <div>
+                                <a href="./3 Waifu Fandom/2--Nijika.html">Nijika Ijichi</a>
+                            </div>
+                        </article>
+                        <article class="shadow">
+                            <img src="./Multimedia/Forger Yor/201.jpg">
+                            <div>
+                                <a href="./3 Waifu Fandom/3--Yor.html">Yor Forger</a>
+                            </div>
+                        </article class="shadow">
+                    </main>
+                    <main class="PPP">
+                        <article class="shadow">
+                            <img src="./Multimedia/Kita Ikuyo/201.jpg">
+                            <div>
+                                <a href="./3 Waifu Fandom/4--Kita.html">Ikuyo Kita</a>
+                            </div>
+                        </article>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

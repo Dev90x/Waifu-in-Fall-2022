@@ -1,0 +1,51 @@
+body
+{ background-image: url(../Multimedia/ZZ/bg4.jpg); height: 100vh; }
+
+.tema
+{ font-size: 50px; font-weight: bold; padding-left: 40px; background-color: #c7ecee; border-radius: 5px; width: 97%; }
+
+.tema a
+{ color: #686de0; text-decoration: none; }
+
+nav
+{ background-color: #686de0; display: flex; justify-content: space-between; align-items: center; padding:0 40px 0 0; height: 50px; border-radius: 5px; margin-bottom: 15px; width: 97%; }
+
+.menu
+{ display: flex; }
+
+.menu li a
+{ padding: 20px 30px; font-size: 21px; }
+
+nav .menu li a
+{ color: #000; text-decoration: none; font-weight: 680; }
+
+nav .menu li
+{ list-style: none; padding: 10px; }
+
+nav .menu li:hover
+{ background-color: #30336b; border-radius: 4px;}
+
+.container
+{ width: 1125px; height: 2105px; background-color: #7c7fe4; font-family: Arial, Helvetica, sans-serif; padding-left: 20px; padding-right: 20px; padding-top: 8px; border-radius: 7px; color: #fff; margin: auto; }
+
+.container2
+{ width: 1125px; height: 1100px; background-color: #7c7fe4; font-family: Arial, Helvetica, sans-serif; padding-left: 20px; padding-right: 20px; padding-top: 8px; border-radius: 7px; color: #fff; margin: auto; }
+
+.container2 div
+{ font-size: 30px; font-weight: 550; padding-left: 70px; padding-top: 13px; padding-bottom: 8px; color: black; font-family:"Calisto MT"; color: #c7ecee; background-color: #686de0; border-radius: 5px;}
+
+.container div
+{ font-size: 30px; font-weight: 550; padding-left: 70px; padding-top: 13px; padding-bottom: 8px; color: black; font-family:"Calisto MT"; color: #c7ecee; background-color: #686de0; border-radius: 5px;}
+
+.grid
+{ display: grid; grid-template-columns: repeat(3,1fr); margin: 10px 20px;  grid-gap: 10px; }
+
+
+img
+{ object-fit: cover; padding: 10px 8px 8px 13px; width: 300px; height: 459px;  }
+
+.grid article
+{ box-shadow: 3px 3px 3px 4px #1c1c31; border-radius: 10px; text-align: center; height: 480px; width: 325px; margin-left: 20px; margin-bottom: 20px; }
+
+.grid article img
+{ border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; }

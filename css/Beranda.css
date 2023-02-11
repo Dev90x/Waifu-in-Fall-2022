@@ -1,0 +1,74 @@
+body
+{ background-image: url(../Multimedia/ZZ/bg4.jpg); }
+
+.tema
+{ font-size: 50px; font-weight: bold; padding-left: 40px; background-color: #c7ecee; border-radius: 5px; width: 97%; }
+
+.tema a
+{ color: #686de0; text-decoration: none; }
+
+nav
+{ background-color: #686de0; display: flex; justify-content: space-between; align-items: center; padding:0 40px 0 0; height: 50px; border-radius: 5px; width: 97%; }
+
+.menu
+{ display: flex; }
+
+.menu li a
+{ padding: 20px 30px; font-size: 21px; }
+
+nav .menu li a
+{ color: #000; text-decoration: none; font-weight: 670; }
+
+nav .menu li
+{ list-style: none; padding: 10px 0; }
+
+nav .menu li:hover
+{ background-color: #30336b; height: 25px; padding-bottom: 9px; }
+
+ul li.active a
+{ background-color: #30336b; padding: 10px 30px;  }
+
+.container 
+{ width: 1037px; height: 730px; background-color: #7c7fe4; font-family: Arial, Helvetica, sans-serif; padding-left: 40px; padding-right: 10px; border-radius: 5px; color: #fff; margin: auto; padding-right: 30px;  }
+
+.cardBox
+{ display: flex; overflow: hidden; }
+
+.left
+{ flex: 1; width: 500px; height: 640px; }
+
+.top
+{ font-size: 35px; font-weight: 550; text-align: center; color: #c7ecee; padding-top: 15px; padding-bottom: 15px; margin-top: 10px; background-color: #686de0; border-radius: 5px; }
+
+.grid
+{ display: grid; grid-template-columns: repeat(2,1fr);  align-items: center; grid-gap: 10px; margin-top: 10px; margin-left: 10px; padding-top: 10px; }
+
+.grid article img
+{ border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; }
+
+.shadow0
+{ box-shadow: 0px 0px 5px 8px #1c1c31; border-radius: 10px; height: 590px; width: 375px; }
+
+.shadow
+{ box-shadow: 0px 0px 5px 8px #1c1c31; border-radius: 10px; height: 290px; width: 250px; }
+
+img
+{ object-fit: cover; padding: 8px 8px 8px 12px; }
+
+.PPP
+{ margin: 30px 150px; padding-bottom: 10px; }
+
+.PPP article img
+{ border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; }
+
+article a
+{ font-size: 20px; font-weight: 500; color: #c7ecee; text-transform: uppercase; text-decoration: none; padding-left: 15px; }
+
+article a:hover
+{ background-color: #30336b; border-radius: 4px; padding: 5px 13px; }
+
+.S
+{ overflow: hidden; }
+
+@media (max-width:1000px)
+{  }
