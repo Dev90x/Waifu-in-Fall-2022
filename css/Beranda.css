@@ -29,7 +29,7 @@ ul li.active a
 { background-color: #30336b; padding: 10px 30px;  }
 
 .container 
-{ width: 1037px; height: 730px; background-color: #7c7fe4; font-family: Arial, Helvetica, sans-serif; padding-left: 40px; padding-right: 10px; border-radius: 5px; color: #fff; margin: auto; padding-right: 30px;  }
+{ width: 1037px; height: 730px; background-color: black; font-family: Arial, Helvetica, sans-serif; padding-left: 40px; padding-right: 10px; border-radius: 5px; color: #fff; margin: auto; padding-right: 30px;  }
 
 .cardBox
 { display: flex; overflow: hidden; }
