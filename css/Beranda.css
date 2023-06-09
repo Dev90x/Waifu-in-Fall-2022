@@ -1,5 +1,5 @@
 body
-{ background-image: url(../Multimedia/ZZ/bg4.jpg); background-attachment: fixed; }
+{ background-image: url(../Multimedia/ZZ/bg4.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
 
 .tema
 { font-size: 50px; font-weight: bold; padding-left: 40px; background-color: #c7ecee; border-radius: 5px; width: 97%; }
